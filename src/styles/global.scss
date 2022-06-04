@@ -1,0 +1,36 @@
+ @use 'vars';
+
+html{
+	// font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+	font-family: 'Poppins', sans-serif;
+	background-color: #fafafa;
+	// position: relative;
+}
+
+.primary-button {
+	background-color: var(--action-color);
+	border-radius: 8px;
+	border: none;
+	color: var(--white);
+	width: 100%;
+	cursor: pointer;
+	font-size: var(--md);
+	font-weight: bold;
+	height: 50px;
+}
+
+.secondary-button {
+	background-color: transparent;
+	border-radius: 8px;
+	border: 1px solid var(--main-color);
+	color: var(--main-color);
+	width: 100%;
+	cursor: pointer;
+	font-size: var(--md);
+	font-weight: bold;
+	height: 50px;
+}
